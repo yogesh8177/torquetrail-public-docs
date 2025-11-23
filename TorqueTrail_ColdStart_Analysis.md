@@ -12,20 +12,20 @@ This Gist explains the **cold start behaviour** observed in TorqueTrail’s sear
 ### Cold start (pinecone 1s cold start)
 ![Image1](pinecone_cold_start.png)
 
-### Warm reqiest 1: ~250–299ms Query Latency
+### Pinecone snapshot 1: ~250–299ms Query Latency
 ![Image1](DA2E0EF9-3B21-4599-ABA6-1921280A8F7A.jpeg)
 
-### Warm request 2: ~150–199ms Query Latency (Later Warm Period)
+### Pinecone snapshot 2: ~150–199ms Query Latency (Later Warm Period)
 ![Image2](2396FFED-C348-4814-A445-7D64D299731D.jpeg)
 
 ---
 
 ## 🔍 AWS X-Ray Traces (EC2 Search Service)
 
-### Image 3
+### Warm request 1
 ![Image3](77886BCC-4794-4670-B477-8CE25219ABCA.jpeg)
 
-### Image 4
+### Warm request 2
 ![Image4](D4DA3718-879A-4318-B082-2BBD0E76E00B.jpeg)
 
 ---
