@@ -9,6 +9,9 @@ This Gist explains the **cold start behaviour** observed in TorqueTrail’s sear
 
 ## 📉 Pinecone Latency Metrics (Before GPU / Same-Region Optimisation)
 
+### Cold start (pinecone 1s cold start)
+![Image1](pinecone_cold_start.png)
+
 ### Warm reqiest 1: ~250–299ms Query Latency
 ![Image1](DA2E0EF9-3B21-4599-ABA6-1921280A8F7A.jpeg)
 
